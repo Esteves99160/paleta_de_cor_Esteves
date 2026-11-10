@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#tela-de-pintura{
+    width: 400px;
+    height: 300px;
+    border: 5px solid #000000;
+    margin: 20px auto;
+    background-color: #5e5e5d;
+}
+
+#paleta{
+    display: flex;
+    justify-content: center;
+}
+
+.pincel{
+    width: 75px;
+    height: 75px;
+    border: 2px solid #000000;
+    margin: 10px;
+    cursor: pointer;
+}
